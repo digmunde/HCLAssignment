@@ -1,8 +1,6 @@
 package com.hcl.test;
 
 
-
-
 import static org.junit.Assert.assertEquals;
 
 import java.time.LocalDate;

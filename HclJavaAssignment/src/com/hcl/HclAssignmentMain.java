@@ -65,6 +65,8 @@ public class HclAssignmentMain {
 					equationService.evaluateEquation(1, 5);
 				} else if (inputStr.trim().equals("3")) {
 					EmployeeMgmtService employeeMgmtService = new EmployeeMgmtService();
+					System.out.println("Employee List before sorting");
+					System.out.println(employeeList);
 					List<Employee> empList = employeeMgmtService.findSortedEmaployee(employeeList, empProperties);
 					System.out.println("The sorted list is ");
 					for (Employee employee : empList) {
